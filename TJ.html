@@ -1,0 +1,343 @@
+﻿<?php
+if($_POST["message"]) {
+    mail("varunjain4@gmail.com", "Form to email message", $_POST["message"], "From: vjainvarun@gmail.com");
+}
+?>
+<!doctype html>
+<html>
+
+<!-- Mirrored from www.willandconfidence.com/wp-content/uploads/2016/10/trial.html by HTTrack Website Copier/3.x [XR&CO'2017], Tue, 17 Oct 2017 12:59:24 GMT -->
+<head>
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="apple-touch-icon" href="favicon.html">
+<title> Trial File</title>
+<meta charset="utf-8">
+<style>
+
+@-webkit-keyframes increase{
+	0%{
+		transform: scale(1);
+		opacity: 0;
+		}
+	
+	50%{
+		opacity: 1;
+		font-size: 40px;
+		}
+	100%{
+		transform: scale(1);
+		opacity: 1;
+		}
+	}
+
+#RingaRinga{
+	display: block;
+	width: 100px;
+	opacity: 0;
+	left: 300px;
+	top: 300px;
+	font-size: 20px;
+	animation: RingaRinga 5s linear ;
+	color: #d8bd5d;
+	-webkit-animation-fill-mode: forwards;
+	}
+#HappyDiwali{
+	position: relative;
+	top: 100px;
+	left: 300px;
+	width: 500px;
+	height: 400px;
+	border: 5px solid brown;
+	background: linear-gradient(135deg, #fff 0%,orange 100%);
+	}
+#laxmiji{
+	position: absolute;
+	top: 50px;
+	left: 25px;
+	height: 300px;
+	width: 200px;
+	animation: blink 1.5s infinite;
+	border-radius: 50%;
+	}
+#laxmiji1{
+	position: absolute;
+	top: 50px;
+	left: 25px;
+	height: 300px;
+	width: 200px;
+	animation: blink1 1.5s infinite;
+	border-radius: 50%;
+	}
+@keyframes blink{
+	0%{
+		box-shadow: 0px 0px 0px rgb(255,255,255);
+		}
+	
+	50%{
+		box-shadow: 8px 8px 40px rgb(255,255,255);
+		}
+	100%{
+		box-shadow: 0px 0px 0px rgb(255,255,255);
+		}
+	}
+@keyframes blink1{
+	0%{
+		box-shadow: 0px 0px 0px rgb(255,255,255);
+		}
+	
+	50%{
+		box-shadow: -8px -8px 40px rgb(255,255,255);
+		}
+	100%{
+		box-shadow: -0px -0px 0px rgb(255,255,255);
+		}
+	}
+#boundary1{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 110px;
+	height: 110px;
+	}
+#boundary4{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 110px;
+	height: 110px;
+	}
+#boundary2{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 110px;
+	height: 110px;
+	}
+#boundary3{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 110px;
+	height: 110px;
+	}
+#wishing p{
+	font-family: Kokonor;
+	animation: increase 1s ease;
+	-webkit-animation-fill-mode: forwards;
+	opacity: 0;
+	position: absolute;
+	font-size: 25px;
+	}
+#wishing  p:nth-child(1){
+	top: 50px;
+	left: 250px;
+	color: DarkTurquoise;
+	}
+#wishing  p:nth-child(2){
+	top: 50px;
+	left: 280px;
+	color: ForestGreen;
+	animation-delay: 0.2s;
+	}
+#wishing  p:nth-child(3){
+	top: 50px;
+	left: 310px;
+	color: Yellow;
+	animation-delay: 0.4s;
+	}
+#wishing  p:nth-child(4){
+	top: 50px;
+	left: 340px;
+	color: Green;
+	animation-delay: 0.6s;
+	}
+#wishing  p:nth-child(5){
+	top: 50px;
+	left: 370px;
+	color: HotPink;
+	animation-delay: 0.8s;
+	}
+#wishing  p:nth-child(6){
+	top: 110px;
+	left: 280px;
+	color: Yellow;
+	animation-delay: 1s;
+	}
+#wishing  p:nth-child(7){
+	top: 110px;
+	left: 310px;
+	color: LightCoral;
+	animation-delay: 1.2s;
+	}
+#wishing  p:nth-child(8){
+	top: 110px;
+	left: 330px;
+	color: LightGreen;
+	animation-delay: 1.4s;
+	}
+#wishing  p:nth-child(9){
+	top: 110px;
+	left: 370px;
+	color: LightSeaGreen;
+	animation-delay: 1.6s;
+	}
+#wishing  p:nth-child(10){
+	top: 110px;
+	left: 400px;
+	color: LightSalmon;
+	animation-delay: 1.8s;
+	}
+#wishing  p:nth-child(11){
+	top: 110px;
+	left: 430px;
+	color: LightSkyBlue;
+	animation-delay: 2s;
+	}
+#wishing  p:nth-child(12){
+	top: 170px;
+	left: 280px;
+	color: Lime;
+	animation-delay: 2.2s;
+	}
+#wishing  p:nth-child(13){
+	top: 170px;
+	left: 310px;
+	color: MediumSlateBlue;
+	animation-delay: 2.4s;
+	}
+#wishing  p:nth-child(14){
+	top: 170px;
+	left: 340px;
+	color: Orange;
+	animation-delay: 2.6s;
+	}
+#wishing  p:nth-child(15){
+	top: 170px;
+	left: 370px;
+	color: DeepSkyBlue;
+	animation-delay: 2.8s;
+	}
+#wishing  p:nth-child(16){
+	top: 230px;
+	left: 260px;
+	color: blue;
+	animation-delay: 3s;
+	}
+#wishing  p:nth-child(17){
+	top: 230px;
+	left: 290px;
+	color: BlueViolet;
+	animation-delay: 3.2s;
+	}
+#wishing  p:nth-child(18){
+	top: 230px;
+	left: 320px;
+	color: Chocolate;
+	animation-delay: 3.4s;
+	}
+#wishing  p:nth-child(19){
+	top: 230px;
+	left: 350px;
+	color: Coral;
+	animation-delay: 3.6s;
+	}
+#wishing  p:nth-child(20){
+	top: 230px;
+	left: 380px;
+	color: cyan;
+	animation-delay: 3.8s;
+	}
+#wishing  p:nth-child(21){
+	top: 280px;
+	left: 250px;
+	color:DarkGoldenRod;
+	animation-delay: 4s;
+	}
+#wishing  p:nth-child(22){
+	top: 280px;
+	left: 280px;
+	color: DarkGray;
+	animation-delay: 4.2s;
+	}
+#wishing  p:nth-child(23){
+	top: 280px;
+	left: 310px;
+	color: DarkMagenta;
+	animation-delay: 4.4s;
+	}
+#wishing  p:nth-child(24){
+	top: 280px;
+	left: 340px;
+	color: DeepPink;
+	animation-delay: 4.6s;
+	}
+
+</style>
+<script>
+var phoneNumber = "233-3457"; 
+var res= phoneNumber.match(/^[0-9]{3}-+\d{4}$/);
+</script>
+</head>
+<body>
+<p id="location321">How are you</p>
+
+<form method="post" action="../../../../../external.html?link=http://www.willandconfidence.com/wp-content/uploads/2016/10/contact.php">
+    <textarea id="no1" name="message"></textarea>
+    <input type="submit">
+</form>
+<div id="HappyDiwali">
+	<img id="sin" src="sin.jpg"></img>
+	<img id="sin" src="sin.jpg"></img>
+	<img id="boundary1" src="boundary1.png"></img>
+	<img id="boundary2" src="boundary2.png"></img>
+	<img id="boundary3" src="boundary3.png"></img>
+	<img id="boundary4" src="boundary4.png"></img>
+<div id="wishing">
+	<p>H</p>
+	<p>A</p>
+	<p>P</p>
+	<p>P</p>
+	<p>Y</p>
+	<p>D</p>
+	<p>I</p>
+	<p>W</p>
+	<p>A</p>
+	<p>L</p>
+	<p>I</p>
+	<p>F</p>
+	<p>R</p>
+	<p>O</p>
+	<p>M</p>
+	<p>J</p>
+	<p>A</p>
+	<p>Y</p>
+	<p>T</p>
+	<p>H</p>
+	<p>A</p>
+	<p>K</p>
+	<p>U</p>
+	<p>R</p>
+	</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+<!-- Mirrored from www.willandconfidence.com/wp-content/uploads/2016/10/trial.html by HTTrack Website Copier/3.x [XR&CO'2017], Tue, 17 Oct 2017 12:59:53 GMT -->
+</html>
